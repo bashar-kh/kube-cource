@@ -1,0 +1,6 @@
+kmaster ansible_host=mmaster
+
+[nodes]
+k1 ansible_host=m1
+k2 ansible_host=m2
+k3 ansible_host=m3
