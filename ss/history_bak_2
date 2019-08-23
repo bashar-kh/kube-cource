@@ -1,0 +1,500 @@
+  104  kubectl get hpa
+  105  kubectl get hpa
+  106  kubectl get hpa
+  107  kubectl describe hpa
+  108  kubectl describe hpa
+  109  kubectl describe hpa
+  110  kubectl edit deployments alpaca-prod 
+  111  kubectl describe hpa
+  112  kubectl describe hpa
+  113  kubectl edit deployments alpaca-prod 
+  114  kubectl describe hpa
+  115  kubectl describe hpa
+  116  kubectl edit deployments bandicoot 
+  117  kubectl describe hpa
+  118  kubectl describe hpa
+  119  kubectl describe hpa
+  120  kubectl describe hpa
+  121  kubectl describe hpa
+  122  kubectl describe hpa
+  123  kubectl describe hpa
+  124  kubectl describe hpa
+  125  kubectl edit hpa bandicoot 
+  126  kubectl describe hpa
+  127  kubectl describe hpa
+  128  kubectl describe hpa
+  129  kubectl describe pods
+  130  kubectl get pods
+  131  kubectl describe hpa
+  132  kubectl describe hpa
+  133  kubectl describe hpa
+  134  kubectl describe hpa
+  135  kubectl describe hpa
+  136  kubectl describe hpa
+  137  kubectl describe hpa
+  138  kubectl get pods
+  139  kubectl get pods
+  140  kubectl get pods
+  141  kubectl get pods
+  142  kubectl get pods
+  143  kubectl get pods
+  144  kubectl get pods
+  145  kubectl get pods
+  146  kubectl get pods
+  147  kubectl get pods
+  148  kubectl get pods
+  149  kubectl get pods
+  150  kubectl get pods
+  151  kubectl top pods
+  152  kubectl top pods
+  153  kubectl top pods
+  154  kubectl get pods
+  155  kubectl get pods -o wide
+  156  kubectl top pods
+  157  kubectl top hpa
+  158  kubectl top nodes
+  159  kubectl get services
+  160  kubectl get node
+  161  ls
+  162  ls
+  163  kubectl compelation
+  164  kubectl compelation bash
+  165  kubectl completion bash
+  166  kubectl completion bash > komp
+  167  . komp 
+  168  kubectl get deployments,pods,service
+  169  kubectl create bandicoot --image=gcr.io/kuar-demo/kuard-amd64:1 --replicas=2 --port=8080 --lebels="ver=2,app=bandicoot,env=prod"
+  170  kubectl run bandicoot --image=gcr.io/kuar-demo/kuard-amd64:1 --replicas=2 --port=8080 --lebels="ver=2,app=bandicoot,env=prod"
+  171  kubectl run bandicoot --image=gcr.io/kuar-demo/kuard-amd64:1 --replicas=2 --port=8080 --lebels="ver=2,app=bandicoot,env=prod"
+  172  kubectl run bandicoot --image=gcr.io/kuar-demo/kuard-amd64:2 --replicas=2 --port=8080 --lebels="ver=2,app=bandicoot,env=prod"
+  173  kubectl run bandicoot --image=gcr.io/kuar-demo/kuard-amd64:2 --replicas=2 --port=8080 --labels="ver=2,app=bandicoot,env=prod"
+  174  kubectl get deployments,pods,service
+  175  kubectl get deployments,pods,service
+  176  kubectl expose deployment bandicoot --external-ip=206.189.49.53 --port=9090 --target-port=8080
+  177  kubectl get deployments,pods,service
+  178  history 
+  179  vi share/commands
+  180  kubectl get deployments,pods,service
+  181  kubectl describe service
+  182  kubectl get service -o yaml
+  183  kubectl get service alpaca-prod -o yaml
+  184  kubectl get service alpaca-prod -o yaml | less
+  185  kubectl get deployments,pods,service
+  186  kubectl get deployments --show-labels 
+  187  kubectl get deployments,pods,service --show-labels 
+  188  kubectl edit deployments bandicoot
+  189  kubectl get deployments,pods,service --show-labels 
+  190  kubectl get deployments,pods,service --show-labels 
+  191  kubectl get deployments,pods,service --show-labels 
+  192  kubectl edit deployments bandicoot
+  193  kubectl get deployments,pods,service --show-labels 
+  194  kubectl get deployments,pods,service --show-labels 
+  195  kubectl get deployments,pods,service --show-labels -o wide
+  196  kubectl get deployments,pods,service --show-labels -o wide
+  197  kubectl get deployments,pods,service --show-labels -o wide
+  198  kubectl edit deployments alpaca-prod 
+  199  kubectl get deployments,pods,service --show-labels -o wide
+  200  kubectl get deployments,pods,service --show-labels -o wide
+  201  kubectl get deployments,pods,service --show-labels -o wide
+  202  kubectl get deployments,pods,service --show-labels -o wide
+  203  kubectl get deployments,pods,service --show-labels -o wide
+  204  kubectl get pods
+  205  kubectl delete pods --all
+  206  kubectl get pods
+  207  fg
+  208  kubectl get nodes 
+  209  kubectl get pods -o wide
+  210  kubectl get nodes 
+  211  kubectl get nodes 
+  212  kubectl get nodes 
+  213  kubectl get nodes 
+  214  kubectl get nodes 
+  215  kubectl get nodes 
+  216  kubectl get nodes 
+  217  kubectl get nodes 
+  218  kubectl get nodes 
+  219  kubectl get nodes 
+  220  kubectl get pods
+  221  kubectl get nodes 
+  222  kubectl get nodes 
+  223  kubectl get pods
+  224  kubectl get pods
+  225  kubectl get pods
+  226  kubectl get pods
+  227  kubectl get pods
+  228  kubectl get pods
+  229  ping hfmaster
+  230  kubectl get service
+  231  kubectl get endpoints 
+  232  kubectl autoscale deployment alpaca-prod --min=1 --max=5 
+  233  kubectl get hpa
+  234  kubectl get hpa
+  235  kubectl get hpa
+  236  kubectl get pods
+  237  kubectl delete pods alpaca-prod-7bf467d8d9-9hvld 
+  238  kubectl delete pods alpaca-prod-7bf467d8d9-c5b6h
+  239  kubectl get hpa
+  240  kubectl get pods
+  241  kubectl delete pods alpaca-prod-7bf467d8d9-c5b6h
+  242  kubectl get hpa
+  243  kubectl autoscale deployment bandicoot --min=2 --max=5 
+  244  kubectl get hpa
+  245  kubectl get hpa
+  246  kubectl get hpa
+  247  kubectl get hpa
+  248  kubectl get hpa
+  249  kubectl get hpa
+  250  kubectl get hpa
+  251  kubectl get hpa
+  252  kubectl get hpa
+  253  kubectl get hpa
+  254  kubectl get hpa
+  255  kubectl get hpa
+  256  kubectl get hpa
+  257  kubectl get hpa
+  258  kubectl get hpa
+  259  kubectl get hpa
+  260  kubectl get nodes 
+  261  kubectl get nodes -o wide
+  262  kubectl top node 
+  263  kubectl get hpa
+  264  kubectl get hpa
+  265  kubectl get hpa
+  266  kubectl get hpa
+  267  kubectl get hpa
+  268  kubectl get hpa
+  269  kubectl get hpa
+  270  kubectl get hpa
+  271  kubectl get hpa
+  272  kubectl get hpa
+  273  kubectl get hpa
+  274  kubectl get hpa
+  275  kubectl get hpa
+  276  kubectl get hpa
+  277  kubectl get hpa
+  278  kubectl get hpa
+  279  kubectl get hpa
+  280  kubectl get hpa
+  281  kubectl get hpa
+  282  kubectl get hpa
+  283  kubectl get hpa
+  284  kubectl get hpa
+  285  kubectl get hpa
+  286  kubectl delete hpa bandicoot
+  287  kubectl get hpa
+  288  kubectl autoscale deployment bandicoot --min=1 --max=5 --cpu-percent=10%
+  289  kubectl autoscale deployment bandicoot --min=1 --max=5 --cpu-percent=10
+  290  kubectl get hpa
+  291  kubectl get hpa
+  292  kubectl get hpa
+  293  kubectl get hpa
+  294  kubectl get hpa
+  295  kubectl get hpa
+  296  kubectl get hpa
+  297  kubectl get hpa
+  298  kubectl get hpa
+  299  kubectl get hpa
+  300  kubectl get hpa
+  301  kubectl get hpa
+  302  kubectl get hpa
+  303  kubectl get hpa
+  304  kubectl get hpa
+  305  kubectl get hpa
+  306  kubectl delete hpa bandicoot
+  307  kubectl autoscale deployment bandicoot --min=1 --max=5 --cpu-percent=2
+  308  kubectl get hpa
+  309  kubectl get hpa
+  310  kubectl get hpa
+  311  kubectl get hpa
+  312  kubectl get hpa
+  313  kubectl get hpa
+  314  kubectl get hpa
+  315  kubectl get pod
+  316  kubectl edit deployments bandicoot 
+  317  kubectl get pod
+  318  kubectl get pod
+  319  kubectl get pod
+  320  kubectl get pod
+  321  kubectl get hpa
+  322  kubectl get hpa
+  323  kubectl get hpa
+  324  kubectl get hpa
+  325  kubectl get hpa
+  326  kubectl get hpa
+  327  kubectl get hpa
+  328  kubectl get hpa
+  329  kubectl get hpa
+  330  kubectl get hpa
+  331  kubectl get hpa
+  332  kubectl get hpa
+  333  kubectl get hpa
+  334  kubectl get hpa
+  335  kubectl get hpa
+  336  kubectl get hpa
+  337  kubectl get hpa
+  338  kubectl get hpa
+  339  kubectl get hpa
+  340  kubectl get hpa
+  341  kubectl get hpa
+  342  kubectl get hpa
+  343  kubectl get hpa
+  344  kubectl get hpa
+  345  kubectl get hpa
+  346  kubectl get hpa
+  347  kubectl get hpa
+  348  kubectl get hpa
+  349  kubectl get hpa
+  350  kubectl get hpa
+  351  kubectl get hpa
+  352  kubectl get pod bandicoot-6cc98ccb7f-4dttw 
+  353  kubectl get pod bandicoot-6cc98ccb7f-4dttw -o wide
+  354  kubectl get pod bandicoot-6cc98ccb7f-4dttw -o wide
+  355  kubectl get hpa
+  356  kubectl get hpa
+  357  kubectl get hpa
+  358  kubectl get hpa
+  359  kubectl get hpa
+  360  kubectl get hpa
+  361  kubectl get hpa
+  362  kubectl get hpa
+  363  kubectl get hpa
+  364  kubectl get hpa
+  365  kubectl get hpa
+  366  kubectl get hpa
+  367  kubectl get hpa
+  368  kubectl get hpa
+  369  kubectl get hpa
+  370  kubectl get hpa
+  371  kubectl get hpa
+  372  kubectl get hpa
+  373  kubectl describe hpa bandicoot 
+  374  kubectl describe hpa bandicoot 
+  375  kubectl describe hpa bandicoot 
+  376  kubectl describe hpa bandicoot 
+  377  kubectl describe hpa bandicoot 
+  378  kubectl describe hpa alpaca-prod 
+  379  kubectl describe hpa alpaca-prod 
+  380  kubectl describe hpa bandicoot 
+  381  kubectl describe hpa bandicoot 
+  382  kubectl get hpa
+  383  kubectl get hpa
+  384  kubectl describe hpa bandicoot 
+  385  kubectl get hpa
+  386  kubectl get hpa
+  387  kubectl get hpa
+  388  kubectl get hpa
+  389  kubectl get hpa
+  390  kubectl get hpa
+  391  kubectl get hpa
+  392  kubectl describe hpa bandicoot 
+  393  kubectl describe hpa bandicoot 
+  394  kubectl describe hpa bandicoot 
+  395  kubectl describe hpa bandicoot 
+  396  kubectl describe hpa bandicoot 
+  397  kubectl get hpa
+  398  kubectl get hpa
+  399  kubectl get hpa
+  400  kubectl get hpa
+  401  kubectl get hpa
+  402  kubectl get hpa
+  403  kubectl get hpa
+  404  kubectl get hpa
+  405  kubectl get hpa
+  406  kubectl get hpa
+  407  kubectl get hpa
+  408  kubectl describe hpa bandicoot 
+  409  kubectl describe hpa bandicoot 
+  410  kubectl get hpa
+  411  kubectl get hpa
+  412  kubectl get hpa
+  413  kubectl edit hpa
+  414  kubectl edit hpa
+  415  date
+  416  kubectl get hpa
+  417  kubectl get hpa
+  418  kubectl get hpa
+  419  kubectl get hpa
+  420  kubectl get hpa
+  421  kubectl get hpa
+  422  kubectl get hpa
+  423  kubectl get hpa
+  424  kubectl get hpa
+  425  kubectl get hpa
+  426  kubectl get hpa
+  427  kubectl get hpa
+  428  kubectl get hpa
+  429  kubectl describe hpa bandicoot 
+  430  kubectl describe hpa bandicoot 
+  431  kubectl edit bandicoot 
+  432  kubectl edit hpa bandicoot 
+  433  kubectl describe hpa bandicoot 
+  434  kubectl describe hpa bandicoot 
+  435  kubectl describe hpa bandicoot 
+  436  kubectl describe hpa bandicoot 
+  437  kubectl edit hpa bandicoot 
+  438  date
+  439  kubectl edit hpa bandicoot 
+  440  date
+  441  kubectl describe hpa bandicoot 
+  442  kubectl describe hpa bandicoot 
+  443  kubectl describe hpa bandicoot 
+  444  kubectl describe hpa bandicoot 
+  445  kubectl autoscale deployment bandicoot --min=1 --max=5 --cpu-percent=50
+  446  kubectl top node
+  447  kubectl top node
+  448  kubectl top node
+  449  kubectl describe deployments. bandicoot 
+  450  kubectl describe deployments. bandicoot 
+  451  kubectl describe deployments alpaca-prod 
+  452  kubectl get pods
+  453  kubectl get pods =o wide
+  454  kubectl get pods -o wide
+  455  kubectl exec -it bandicoot-6cc98ccb7f-4dttw ash
+  456  kubectl exec -it bandicoot-6cc98ccb7f-4dttw ash
+  457  kubectl describe deployments alpaca-prod 
+  458  kubectl describe deployments bandicoot 
+  459  clear
+  460  kubectl describe deployments bandicoot 
+  461  kubectl describe pod bandicoot-6cc98ccb7f-4dttw 
+  462  kubectl top pod bandicoot-6cc98ccb7f-4dttw 
+  463  kubectl edit deployments  bandicoo
+  464  kubectl edit deployments  bandicoot 
+  465  kubectl get pods -o wide
+  466  kubectl get pods -o wide
+  467  kubectl edit deployments  bandicoot 
+  468  kubectl edit deployments  bandicoot 
+  469  kubectl delete pod bandicoot-676796b998-
+  470  kubectl get pod
+  471  kubectl get pod
+  472  kubectl get pod
+  473  kubectl get pod
+  474  kubectl get pod
+  475  kubectl get pod
+  476  kubectl delete pode bandicoot-76c7fd85cb-7pkm7
+  477  kubectl delete pod bandicoot-76c7fd85cb-7pkm7
+  478  kubectl delete pod bandicoot-76c7fd85cb-9knsf
+  479  kubectl delete pod bandicoot-76c7fd85cb-p57zz
+  480  kubectl delete pod bandicoot-76c7fd85cb-wlv2v
+  481  kubectl delete pod bandicoot-76c7fd85cb-xsx6l
+  482  kubectl get pod
+  483  kubectl get pod
+  484  kubectl get pod
+  485  kubectl get pod
+  486  kubectl get pod
+  487  kubectl get pod
+  488  kubectl edit deployments bandicoot 
+  489  kubectl edit deployments bandicoot 
+  490  kubectl get pod
+  491  kubectl get hpa
+  492  watch kubectl get hpa
+  493  watch kubectl get hpa,pod
+  494  watch kubectl get hpa,pod -i 2
+  495  watch -i 2 kubectl get hpa,pod
+  496  watch 2 kubectl get hpa,pod
+  497  watch kubectl get hpa,pod
+  498  watch kubectl get pod
+  499  kubectl get pod
+  500* kubectl get deployment
+  501  kubectl patch -h
+  502  #kubectl patch deployment alpaca-prod -p '{spec:{}}'
+  503  kubectl edit deployments alpaca-prod 
+  504  kubectl patch deployment alpaca-prod -p '{spec:{replicas: 4}}'
+  505  kubectl patch deployment alpaca-prod -p '{"spec":{"replicas": 4}}'
+  506  kubectl edit deployments alpaca-prod 
+  507  kubectl patch deployment alpaca-prod -p '{"spec":{"replicas": 4}}'
+  508  kubectl edit deployments alpaca-prod 
+  509  kubectl edit deployments alpaca-prod 
+  510  kubectl patch deployment alpaca-prod -p '{"spec":{"replicas": 4}}'
+  511  kubectl edit deployments alpaca-prod 
+  512  kubectl patch deployment alpaca-prod -p '{"spec":{"replicas": 3}}'
+  513  kubectl edit deployments alpaca-prod 
+  514  kubectl patch deployment alpaca-prod -p '{"spec":{"replicas": 3}}'
+  515  echo $'{"spec":{"replicas": 3}}'
+  516  echo "\n"
+  517  echo -e "\n"
+  518  echo -e '\n'
+  519  echo $'\n'
+  520  echo $'A\nB'
+  521  echo 'A\nB'
+  522  echo -e 'A\nB'
+  523  kubectl patch -h
+  524  curl -h
+  525  wget -h
+  526  wget https://k8s.io/examples/application/deployment.yaml
+  527  ls
+  528  mv deployment.yaml deployment_nginx.yaml 
+  529  vi deployment_nginx.yaml 
+  530  kubectl apply -f deployment_nginx.yaml
+  531  kubectl describe deployments.
+  532  kubectl get deployments
+  533  kubectl describe deployments nginx-deployment-ss
+  534  kubectl expose deployment nginx-ss --external-ip=206.189.49.53 --port=8081 --target-port=8080
+  535  kubectl expose deployment nginx-deployment-ss --external-ip=206.189.49.53 --port=8081 --target-port=8080
+  536  ip a
+  537  kubectl get service
+  538  kubectl descrive service nginx-bkh
+  539  kubectl describe service nginx-bkh
+  540  kubectl delete service nginx-deployment-ss
+  541  kubectl expose deployment nginx-deployment-ss --external-ip=206.189.49.53 --port=8081 --target-port=80
+  542  vi nginx-basic.conf
+  543  mkdir ss
+  544  mkdir ss/conf.d/
+  545  mv nginx-basic.conf  ss/conf.d/
+  546  kubectl create configmap basic-config --from-file=ss/conf.d/
+  547  ls
+  548  mv deployment_nginx.yaml ss/
+  549  vi ss/deployment_nginx.yaml 
+  550  kubectl delete service nginx-deployment-ss
+  551  kubectl delete deployments nginx-deployment-ss
+  552  kubectl apply -f ss/deployment_nginx.yaml
+  553  kubectl expose deployment nginx-deployment-ss --external-ip=206.189.49.53 --port=8081 --target-port=80
+  554  vi ss/conf.d/nginx-basic.conf 
+  555  kubectl delete pods --all
+  556  #kubectl expose deployment nginx-deployment-ss --external-ip=206.189.49.53 --port=8081 --target-port=80
+  557  #kubectl apply -f ss/deployment_nginx.yaml && kubectl expose deployment nginx-deployment-ss --external-ip=206.189.49.53 --port=8081 --target-port=80
+  558  kubectl delete service nginx-deployment-ss && kubectl delete deployments nginx-deployment-ss
+  559  kubectl apply -f ss/deployment_nginx.yaml && kubectl expose deployment nginx-deployment-ss --external-ip=206.189.49.53 --port=8081 --target-port=80
+  560  vi ss/deployment_nginx.yaml
+  561  kubectl create configmap basic-config --from-file=ss/conf.d/
+  562  kubectl delete configmap basic-config && kubectl create configmap basic-config --from-file=ss/conf.d/
+  563  kubectl delete service nginx-deployment-ss && kubectl delete deployments nginx-deployment-ss
+  564  kubectl apply -f ss/deployment_nginx.yaml && kubectl expose deployment nginx-deployment-ss --external-ip=206.189.49.53 --port=8081 --target-port=80
+  565  vi ss/conf.d/nginx-basic.conf 
+  566  vi ss/deployment_nginx.yaml 
+  567  vi ss/deployment_nginx.yaml 
+  568  vi ss/conf.d/nginx-basic.conf 
+  569  vi ss/deployment_nginx.yaml 
+  570  ip a
+  571  cat /etc/exports 
+  572  vi /etc/exports 
+  573  ls
+  574  ls
+  575  ls share/
+  576  cp -r share ss/
+  577  history
+  578  history > ss/history_bak
+  579  cat ss/history_bak 
+  580  service nfs-server status
+  581  ip a
+  582  kubectl get pods -o wide
+  583  kubectl get pods -o wide
+  584  kubectl edit deployment nginx-bkh
+  585  cat /etc/exports 
+  586  kubectl edit deployment nginx-bkh
+  587  kubectl describe pods
+  588  kubectl describe pods -o wide
+  589  kubectl describe pods
+  590  kubectl get pods
+  591  kubectl get pods
+  592  kubectl get pods
+  593  kubectl get pods
+  594  kubectl edit deployment nginx-bkh
+  595  kubectl edit deployment nginx-bkh
+  596  kubectl get pods
+  597  kubectl get pods
+  598  kubectl get pods
+  599  kubectl get pods
+  600  kubectl get pods
+  601  kubectl autoscale deployment nginx-deployment-ss --cpu-percent=50 --min=1 --max=10
+  602  kubectl run -i --tty load-generator --image=busybox /bin/sh
+  603  history > ss/history_bak_2

@@ -1,0 +1,5 @@
+kubectl run bandicoot --image=gcr.io/kuar-demo/kuard-amd64:2 --replicas=2 --port=8080 --labels="ver=2,app=bandicoot,env=prod"
+kubectl get deployments,pods,service
+kubectl expose deployment bandicoot --external-ip=206.189.49.53 --port=9090 --target-port=8080
+kubectl get deployments,pods,service
+
