@@ -1,0 +1,1 @@
+kubectl create configmap --from-file=master.conf --from-file=slave.conf --from-file=sentinel.conf --from-file=init.sh --from-file=sentinel.sh redis-config
